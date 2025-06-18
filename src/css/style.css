@@ -41,11 +41,44 @@ body {
 }
 
 /* Category filter (legend) styles */
+.category-filter-container {
+    max-width: 280px;
+}
+
 .category-filter {
     max-height: 60vh;
     overflow-y: auto;
     background-color: rgba(255, 255, 255, 0.9);
     line-height: 1.5;
+}
+
+.filter-toggle-btn {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #d1d5db;
+}
+
+.filter-toggle-btn:hover {
+    background-color: #f3f4f6 !important;
+}
+
+.filter-toggle-btn:active {
+    transform: scale(0.98);
+}
+
+/* Mobile specific filter styles */
+@media (max-width: 767px) {
+    .category-filter-container {
+        max-width: 200px;
+    }
+    
+    .category-filter {
+        max-height: 40vh;
+    }
+    
+    .filter-toggle-btn {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
 }
 
 .category-filter-item {
@@ -89,4 +122,37 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+/* Mobile responsive styles */
+@media (max-width: 767px) {
+    html, body {
+        overflow: auto; /* Allow scrolling on mobile */
+    }
+    
+    #app {
+        height: 100vh;
+    }
+    
+    #sidebar {
+        height: calc(100vh - 60px); /* Account for toggle buttons */
+    }
+    
+    #map-container {
+        height: calc(100vh - 60px); /* Account for toggle buttons */
+    }
+    
+    #map {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Ensure buttons are properly styled on mobile */
+.mobile-toggle-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.mobile-toggle-btn:active {
+    transform: scale(0.98);
 }

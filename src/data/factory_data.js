@@ -679,7 +679,7 @@ const factoryData = [
         "names": {
             "ja": "燕三条駅観光物産センター 燕三条Wing",
             "en": "Tsubame-Sanjo Station Tourist Information & Product Center Tsubame-Sanjo Wing",
-            "zh-TW": "燕三条車站觀光物產中心 燕三条Wing"
+            "zh-TW": "燕三条車站觀光物產中心 燕三條Wing"
         },
         "city": "三条市",
         "category": "小売",
@@ -829,7 +829,7 @@ const factoryData = [
         "names": {
             "ja": "三条ものづくり学校",
             "en": "Sanjo Monozukuri School",
-            "zh-TW": "三条製造學校"
+            "zh-TW": "三條製造學校"
         },
         "city": "三条市",
         "category": "その他サービス",
@@ -1008,8 +1008,8 @@ const factoryData = [
         "name": "道の駅漢学の里しただ",
         "names": {
             "ja": "道の駅漢学の里しただ",
-            "en": "Roadside Station 漢学の里しただ",
-            "zh-TW": "道之驛漢学の里しただ"
+            "en": "Roadside Station Kangaku-no-Sato Shitada",
+            "zh-TW": "道之驛漢學之里下田"
         },
         "city": "三条市",
         "category": "道の駅",
@@ -1023,11 +1023,11 @@ const factoryData = [
         "name": "アイアンプラネットBASE of 三条 ★",
         "names": {
             "ja": "アイアンプラネットBASE of 三条 ★",
-            "en": "アイアンプラネットBASE of 三条  ★",
-            "zh-TW": "アイアンプラネットBASE of 三条 ★"
+            "en": "Iron Planet BASE of Sanjo ★",
+            "zh-TW": "Iron Planet BASE of 三条 ★"
         },
         "city": "三条市",
-        "category": "金属部品製造",
+        "category": "Metal Parts Manufacturing",
         "api_found_name": "アイアンプラネット ベースオブ 三条",
         "api_found_address": "日本、〒955-0141 新潟県三条市荒沢３８４−１",
         "api_lat": 37.530981499999996,
@@ -1038,8 +1038,8 @@ const factoryData = [
         "name": "八木ヶ鼻温泉 いい湯らてい",
         "names": {
             "ja": "八木ヶ鼻温泉 いい湯らてい",
-            "en": "八木ヶ鼻温泉 いい湯らてい",
-            "zh-TW": "八木ヶ鼻温泉 いい湯らてい"
+            "en": "Yagigahana Onsen Iiyuratei",
+            "zh-TW": "八木鼻溫泉 いい湯らてい"
         },
         "city": "三条市",
         "category": "その他サービス",
@@ -1053,11 +1053,11 @@ const factoryData = [
         "name": "明田川自研",
         "names": {
             "ja": "明田川自研",
-            "en": "明田川自研",
+            "en": "Aketagawa Jiken",
             "zh-TW": "明田川自研"
         },
         "city": "燕市",
-        "category": "金属加工",
+        "category": "Metal Processing",
         "api_found_name": "明田川自研",
         "api_found_address": "日本、〒959-0105 新潟県燕市中島６３２",
         "api_lat": 37.6454944,
@@ -1068,8 +1068,8 @@ const factoryData = [
         "name": "くみ木の森",
         "names": {
             "ja": "くみ木の森",
-            "en": "くみ木の森",
-            "zh-TW": "くみ木の森"
+            "en": "Kumiki no Mori",
+            "zh-TW": "組木之森"
         },
         "city": "燕市",
         "category": "木工",
@@ -1083,8 +1083,8 @@ const factoryData = [
         "name": "ＭＲオート",
         "names": {
             "ja": "ＭＲオート",
-            "en": "ＭＲオート",
-            "zh-TW": "ＭＲオート"
+            "en": "MR Auto",
+            "zh-TW": "MR Auto"
         },
         "city": "燕市",
         "category": "自動車鈑金塗装",
@@ -1098,8 +1098,8 @@ const factoryData = [
         "name": "オリロー　新潟工場　★",
         "names": {
             "ja": "オリロー　新潟工場　★",
-            "en": "オリロー　新潟 Factory　 ★",
-            "zh-TW": "オリロー　新潟工廠　★"
+            "en": "Orilaw Niigata Factory ★",
+            "zh-TW": "Orilaw 新潟工廠 ★"
         },
         "city": "燕市",
         "category": "金属製品製造",
@@ -1143,8 +1143,8 @@ const factoryData = [
         "name": "サーキュラーソフトクリーム",
         "names": {
             "ja": "サーキュラーソフトクリーム",
-            "en": "サーキュラーソフトクリーム",
-            "zh-TW": "サーキュラーソフトクリーム"
+            "en": "Circular Soft Cream",
+            "zh-TW": "圓形霜淇淋"
         },
         "city": "燕市",
         "category": "小売・飲食",
@@ -1158,8 +1158,8 @@ const factoryData = [
         "name": "ひうら農場",
         "names": {
             "ja": "ひうら農場",
-            "en": "ひうら農場",
-            "zh-TW": "ひうら農場"
+            "en": "Hiura Farm",
+            "zh-TW": "日浦農場"
         },
         "city": "燕市",
         "category": "農家",
@@ -1173,8 +1173,8 @@ const factoryData = [
         "name": "総合建築行栄",
         "names": {
             "ja": "総合建築行栄",
-            "en": "総合建築行栄",
-            "zh-TW": "総合建築行栄"
+            "en": "Sogo Kenchiku Koei",
+            "zh-TW": "總合建築行榮"
         },
         "city": "燕市",
         "category": "木工",
@@ -1203,8 +1203,8 @@ const factoryData = [
         "name": "藤田金屬株式会社　燕支店",
         "names": {
             "ja": "藤田金屬株式会社　燕支店",
-            "en": "藤田金屬 Co., Ltd.　燕支店",
-            "zh-TW": "藤田金屬株式会社　燕支店"
+            "en": "Fujita Kinzoku Co., Ltd. Tsubame Branch",
+            "zh-TW": "藤田金屬株式會社 燕支店"
         },
         "city": "燕市",
         "category": "金属加工",
@@ -1233,8 +1233,8 @@ const factoryData = [
         "name": "ワークスサイマツ",
         "names": {
             "ja": "ワークスサイマツ",
-            "en": "ワークスサイマツ",
-            "zh-TW": "ワークスサイマツ"
+            "en": "Works Saimatsu",
+            "zh-TW": "Works Saimatsu"
         },
         "city": "燕市",
         "category": "金属製品製造",
@@ -1248,8 +1248,8 @@ const factoryData = [
         "name": "澤田勇一朗　★",
         "names": {
             "ja": "澤田勇一朗　★",
-            "en": "澤田勇一朗　 ★",
-            "zh-TW": "澤田勇一朗　★"
+            "en": "Sawada Yuichiro ★",
+            "zh-TW": "澤田勇一朗 ★"
         },
         "city": "燕市",
         "category": "その他製造",
@@ -1293,8 +1293,8 @@ const factoryData = [
         "name": "キッチンラボ 燕宮町店　★",
         "names": {
             "ja": "キッチンラボ 燕宮町店　★",
-            "en": "キッチンラボ 燕宮町店　 ★",
-            "zh-TW": "キッチンラボ 燕宮町店　★"
+            "en": "Kitchen Lab Tsubame Miyamachi Store ★",
+            "zh-TW": "Kitchen Lab 燕宮町店 ★"
         },
         "city": "燕市",
         "category": "小売・飲食",
@@ -1308,8 +1308,8 @@ const factoryData = [
         "name": "レウス　★",
         "names": {
             "ja": "レウス　★",
-            "en": "レウス　 ★",
-            "zh-TW": "レウス　★"
+            "en": "Reus ★",
+            "zh-TW": "Reus ★"
         },
         "city": "燕市",
         "category": "木工",
@@ -1323,8 +1323,8 @@ const factoryData = [
         "name": "ハーヴェスト",
         "names": {
             "ja": "ハーヴェスト",
-            "en": "ハーヴェスト",
-            "zh-TW": "ハーヴェスト"
+            "en": "Harvest",
+            "zh-TW": "Harvest"
         },
         "city": "燕市",
         "category": "農家",
@@ -1353,7 +1353,7 @@ const factoryData = [
         "name": "高賢",
         "names": {
             "ja": "高賢",
-            "en": "高賢",
+            "en": "Takaken",
             "zh-TW": "高賢"
         },
         "city": "燕市",
@@ -1368,8 +1368,8 @@ const factoryData = [
         "name": "熊倉シャーリング",
         "names": {
             "ja": "熊倉シャーリング",
-            "en": "熊倉シャーリング",
-            "zh-TW": "熊倉シャーリング"
+            "en": "Kumakura Shearing",
+            "zh-TW": "熊倉剪切"
         },
         "city": "燕市",
         "category": "金属部品製造",
@@ -1383,8 +1383,8 @@ const factoryData = [
         "name": "コスモ・スミス",
         "names": {
             "ja": "コスモ・スミス",
-            "en": "コスモ・スミス",
-            "zh-TW": "コスモ・スミス"
+            "en": "Cosmo Smith",
+            "zh-TW": "Cosmo Smith"
         },
         "city": "三条市",
         "category": "金属製品製造",
@@ -1398,8 +1398,8 @@ const factoryData = [
         "name": "テーエム",
         "names": {
             "ja": "テーエム",
-            "en": "テーエム",
-            "zh-TW": "テーエム"
+            "en": "TM",
+            "zh-TW": "TM"
         },
         "city": "三条市",
         "category": "金属加工",
@@ -1413,7 +1413,7 @@ const factoryData = [
         "name": "北興商事",
         "names": {
             "ja": "北興商事",
-            "en": "北興商事",
+            "en": "Hokko Shoji",
             "zh-TW": "北興商事"
         },
         "city": "三条市",
@@ -1428,8 +1428,8 @@ const factoryData = [
         "name": "ハイサーブウエノ",
         "names": {
             "ja": "ハイサーブウエノ",
-            "en": "ハイサーブウエノ",
-            "zh-TW": "ハイサーブウエノ"
+            "en": "Hi-serve Ueno",
+            "zh-TW": "Hi-serve Ueno"
         },
         "city": "三条市",
         "category": "金属製品製造",
@@ -1443,8 +1443,8 @@ const factoryData = [
         "name": "こうばの窓口",
         "names": {
             "ja": "こうばの窓口",
-            "en": "こうばの窓口",
-            "zh-TW": "こうばの窓口"
+            "en": "Kouba no Madoguchi",
+            "zh-TW": "工場窗口"
         },
         "city": "三条市",
         "category": "その他サービス",
@@ -1458,8 +1458,8 @@ const factoryData = [
         "name": "KYOWAクラシックカー＆ライフステーション　★",
         "names": {
             "ja": "KYOWAクラシックカー＆ライフステーション　★",
-            "en": "KYOWAクラシックカー＆ライフステーション　 ★",
-            "zh-TW": "KYOWAクラシックカー＆ライフステーション　★"
+            "en": "KYOWA Classic Car & Life Station ★",
+            "zh-TW": "KYOWA Classic Car & Life Station ★"
         },
         "city": "三条市",
         "category": "資料館",
@@ -1473,8 +1473,8 @@ const factoryData = [
         "name": "ベルモント",
         "names": {
             "ja": "ベルモント",
-            "en": "ベルモント",
-            "zh-TW": "ベルモント"
+            "en": "Belmont",
+            "zh-TW": "Belmont"
         },
         "city": "三条市",
         "category": "その他サービス",
@@ -1488,8 +1488,8 @@ const factoryData = [
         "name": "鍛冶ミュージアム",
         "names": {
             "ja": "鍛冶ミュージアム",
-            "en": "鍛冶ミュージアム",
-            "zh-TW": "鍛冶ミュージアム"
+            "en": "Blacksmith Museum",
+            "zh-TW": "鍛冶博物館"
         },
         "city": "三条市",
         "category": "資料館",
@@ -1503,8 +1503,8 @@ const factoryData = [
         "name": "ほまれあ",
         "names": {
             "ja": "ほまれあ",
-            "en": "ほまれあ",
-            "zh-TW": "ほまれあ"
+            "en": "Homarea",
+            "zh-TW": "Homarea"
         },
         "city": "三条市",
         "category": "資料館",
@@ -1518,8 +1518,8 @@ const factoryData = [
         "name": "須藤凧屋　★",
         "names": {
             "ja": "須藤凧屋　★",
-            "en": "須藤凧屋　 ★",
-            "zh-TW": "須藤凧屋　★"
+            "en": "Sudo Kite Shop ★",
+            "zh-TW": "須藤風箏屋 ★"
         },
         "city": "三条市",
         "category": "その他製造",
@@ -1533,8 +1533,8 @@ const factoryData = [
         "name": "剣謙心",
         "names": {
             "ja": "剣謙心",
-            "en": "剣謙心",
-            "zh-TW": "剣謙心"
+            "en": "Tsurugi Kenshin",
+            "zh-TW": "劍謙心"
         },
         "city": "三条市",
         "category": "金物卸売",
@@ -1548,8 +1548,8 @@ const factoryData = [
         "name": "今井畳店",
         "names": {
             "ja": "今井畳店",
-            "en": "今井畳店",
-            "zh-TW": "今井畳店"
+            "en": "Imai Tatami Shop",
+            "zh-TW": "今井榻榻米店"
         },
         "city": "三条市",
         "category": "その他製造",
@@ -1570,16 +1570,16 @@ const factoryData = [
         "google_maps_link": "N/A",
         "names": {
             "ja": "にいがた県央マイスター20周年記念イベント",
-            "en": "にいがた県央マイスター20周年記念イベント",
-            "zh-TW": "にいがた県央マイスター20周年記念イベント"
+            "en": "Niigata Kenno Meister 20th Anniversary Event",
+            "zh-TW": "新潟縣央名匠20週年紀念活動"
         }
     },
     {
         "name": "デフィジャポン",
         "names": {
             "ja": "デフィジャポン",
-            "en": "デフィジャポン",
-            "zh-TW": "デフィジャポン"
+            "en": "Defi Japon",
+            "zh-TW": "Defi Japon"
         },
         "city": "三条市",
         "category": "金属材料",
@@ -1593,8 +1593,8 @@ const factoryData = [
         "name": "村の鍛冶屋",
         "names": {
             "ja": "村の鍛冶屋",
-            "en": "村の鍛冶屋",
-            "zh-TW": "村の鍛冶屋"
+            "en": "Village Blacksmith",
+            "zh-TW": "村的鍛冶屋"
         },
         "city": "三条市",
         "category": "小売",
@@ -1608,8 +1608,8 @@ const factoryData = [
         "name": "プログラフ",
         "names": {
             "ja": "プログラフ",
-            "en": "プログラフ",
-            "zh-TW": "プログラフ"
+            "en": "Prograph",
+            "zh-TW": "Prograph"
         },
         "city": "三条市",
         "category": "印刷パッケージ",
@@ -1623,8 +1623,8 @@ const factoryData = [
         "name": "藤田金屬株式会社　三条支店",
         "names": {
             "ja": "藤田金屬株式会社　三条支店",
-            "en": "藤田金屬 Co., Ltd.　三条支店",
-            "zh-TW": "藤田金屬株式会社　三条支店"
+            "en": "Fujita Kinzoku Co., Ltd. Sanjo Branch",
+            "zh-TW": "藤田金屬株式會社 三条支店"
         },
         "city": "三条市",
         "category": "金属加工",
@@ -1638,8 +1638,8 @@ const factoryData = [
         "name": "絵本の店 omamori ★",
         "names": {
             "ja": "絵本の店 omamori ★",
-            "en": "絵本の店 omamori  ★",
-            "zh-TW": "絵本の店 omamori ★"
+            "en": "Picture Book Store omamori ★",
+            "zh-TW": "繪本店 omamori ★"
         },
         "city": "三条市",
         "category": "小売",
@@ -1653,7 +1653,7 @@ const factoryData = [
         "name": "三-Me.",
         "names": {
             "ja": "三-Me.",
-            "en": "三-Me.",
+            "en": "San-Me.",
             "zh-TW": "三-Me."
         },
         "city": "三条市",
@@ -1683,8 +1683,8 @@ const factoryData = [
         "name": "遊亀楼 魚 兵",
         "names": {
             "ja": "遊亀楼 魚 兵",
-            "en": "遊亀楼 魚 兵",
-            "zh-TW": "遊亀楼 魚 兵"
+            "en": "Yukirou Uo Hei",
+            "zh-TW": "遊龜樓 魚兵"
         },
         "city": "三条市",
         "category": "小売・飲食",
@@ -1698,8 +1698,8 @@ const factoryData = [
         "name": "金工作家　須佐 真",
         "names": {
             "ja": "金工作家　須佐 真",
-            "en": "金工作家　須佐 真",
-            "zh-TW": "金工作家　須佐 真"
+            "en": "Metal Artist Susa Makoto",
+            "zh-TW": "金工作家 須佐真"
         },
         "city": "三条市",
         "category": "金属製品製造",
@@ -1713,8 +1713,8 @@ const factoryData = [
         "name": "いづみ商会",
         "names": {
             "ja": "いづみ商会",
-            "en": "いづみ商会",
-            "zh-TW": "いづみ商会"
+            "en": "Izumi Shokai",
+            "zh-TW": "和泉商會"
         },
         "city": "三条市",
         "category": "印刷パッケージ",
@@ -1728,8 +1728,8 @@ const factoryData = [
         "name": "ファブラボ燕三条",
         "names": {
             "ja": "ファブラボ燕三条",
-            "en": "ファブラボ燕三条",
-            "zh-TW": "ファブラボ燕三条"
+            "en": "FabLab Tsubame-Sanjo",
+            "zh-TW": "FabLab 燕三条"
         },
         "city": "三条市",
         "category": "その他サービス",
@@ -1743,7 +1743,7 @@ const factoryData = [
         "name": "杢|MOKU ★",
         "names": {
             "ja": "杢|MOKU ★",
-            "en": "杢|MOKU  ★",
+            "en": "Moku|MOKU ★",
             "zh-TW": "杢|MOKU ★"
         },
         "city": "三条市",
@@ -1758,8 +1758,8 @@ const factoryData = [
         "name": "一成モールド",
         "names": {
             "ja": "一成モールド",
-            "en": "一成モールド",
-            "zh-TW": "一成モールド"
+            "en": "Issei Mold",
+            "zh-TW": "一成模具"
         },
         "city": "三条市",
         "category": "金型",
@@ -1773,8 +1773,8 @@ const factoryData = [
         "name": "共和工業　★",
         "names": {
             "ja": "共和工業　★",
-            "en": "共和工業　 ★",
-            "zh-TW": "共和工業　★"
+            "en": "Kyowa Kogyo ★",
+            "zh-TW": "共和工業 ★"
         },
         "city": "三条市",
         "category": "金型",
@@ -1788,8 +1788,8 @@ const factoryData = [
         "name": "三井化学　★",
         "names": {
             "ja": "三井化学　★",
-            "en": "三井化学　 ★",
-            "zh-TW": "三井化学　★"
+            "en": "Mitsui Chemicals ★",
+            "zh-TW": "三井化學 ★"
         },
         "city": "三条市",
         "category": "プラスチック",
@@ -1803,7 +1803,7 @@ const factoryData = [
         "name": "野崎製作所",
         "names": {
             "ja": "野崎製作所",
-            "en": "野崎製作所",
+            "en": "Nozaki Seisakusho",
             "zh-TW": "野崎製作所"
         },
         "city": "三条市",
@@ -1818,8 +1818,8 @@ const factoryData = [
         "name": "野水鋼鐵店　★",
         "names": {
             "ja": "野水鋼鐵店　★",
-            "en": "野水鋼鐵店　 ★",
-            "zh-TW": "野水鋼鐵店　★"
+            "en": "Nomizu Steel Shop ★",
+            "zh-TW": "野水鋼鐵店 ★"
         },
         "city": "三条市",
         "category": "金物卸売",
@@ -1833,8 +1833,8 @@ const factoryData = [
         "name": "シマト工業",
         "names": {
             "ja": "シマト工業",
-            "en": "シマト工業",
-            "zh-TW": "シマト工業"
+            "en": "Shimato Kogyo",
+            "zh-TW": "Shimato工業"
         },
         "city": "三条市",
         "category": "金属加工",
@@ -1848,8 +1848,8 @@ const factoryData = [
         "name": "大島テラス960 ★",
         "names": {
             "ja": "大島テラス960 ★",
-            "en": "大島テラス960  ★",
-            "zh-TW": "大島テラス960 ★"
+            "en": "Oshima Terrace 960 ★",
+            "zh-TW": "大島Terrace 960 ★"
         },
         "city": "三条市",
         "category": "小売・飲食",
@@ -1863,8 +1863,8 @@ const factoryData = [
         "name": "岡久　★",
         "names": {
             "ja": "岡久　★",
-            "en": "岡久　 ★",
-            "zh-TW": "岡久　★"
+            "en": "Okaku ★",
+            "zh-TW": "岡久 ★"
         },
         "city": "三条市",
         "category": "塗料販売",
@@ -1878,8 +1878,8 @@ const factoryData = [
         "name": "渡辺果樹園",
         "names": {
             "ja": "渡辺果樹園",
-            "en": "渡辺果樹園",
-            "zh-TW": "渡辺果樹園"
+            "en": "Watanabe Orchard",
+            "zh-TW": "渡邊果樹園"
         },
         "city": "三条市",
         "category": "農家",
@@ -1893,7 +1893,7 @@ const factoryData = [
         "name": "朝倉家具",
         "names": {
             "ja": "朝倉家具",
-            "en": "朝倉家具",
+            "en": "Asakura Furniture",
             "zh-TW": "朝倉家具"
         },
         "city": "新潟市",
@@ -1908,7 +1908,7 @@ const factoryData = [
         "name": "帝樹園庭正",
         "names": {
             "ja": "帝樹園庭正",
-            "en": "帝樹園庭正",
+            "en": "Teiju-en Teisho",
             "zh-TW": "帝樹園庭正"
         },
         "city": "三条市",
@@ -1923,8 +1923,8 @@ const factoryData = [
         "name": "ヤマトキ製作所",
         "names": {
             "ja": "ヤマトキ製作所",
-            "en": "ヤマトキ製作所",
-            "zh-TW": "ヤマトキ製作所"
+            "en": "Yamatoki Seisakusho",
+            "zh-TW": "Yamatoki製作所"
         },
         "city": "三条市",
         "category": "金属製品製造",
@@ -1938,8 +1938,8 @@ const factoryData = [
         "name": "西山カートン",
         "names": {
             "ja": "西山カートン",
-            "en": "西山カートン",
-            "zh-TW": "西山カートン"
+            "en": "Nishiyama Carton",
+            "zh-TW": "西山紙箱"
         },
         "city": "三条市",
         "category": "プラスチック",
@@ -1953,8 +1953,8 @@ const factoryData = [
         "name": "みこし",
         "names": {
             "ja": "みこし",
-            "en": "みこし",
-            "zh-TW": "みこし"
+            "en": "Mikoshi",
+            "zh-TW": "神轎"
         },
         "city": "三条市",
         "category": "小売",
@@ -1968,8 +1968,8 @@ const factoryData = [
         "name": "マサコー山口木工",
         "names": {
             "ja": "マサコー山口木工",
-            "en": "マサコー山口木工",
-            "zh-TW": "マサコー山口木工"
+            "en": "Masako Yamaguchi Woodworking",
+            "zh-TW": "Masako山口木工"
         },
         "city": "三条市",
         "category": "木工",
@@ -1983,7 +1983,7 @@ const factoryData = [
         "name": "青柳木工 ★",
         "names": {
             "ja": "青柳木工 ★",
-            "en": "青柳木工  ★",
+            "en": "Aoyagi Woodworking ★",
             "zh-TW": "青柳木工 ★"
         },
         "city": "三条市",
@@ -1998,8 +1998,8 @@ const factoryData = [
         "name": "諸橋農園　★",
         "names": {
             "ja": "諸橋農園　★",
-            "en": "諸橋農園　 ★",
-            "zh-TW": "諸橋農園　★"
+            "en": "Morohashi Farm ★",
+            "zh-TW": "諸橋農園 ★"
         },
         "city": "三条市",
         "category": "その他サービス",
@@ -2028,8 +2028,8 @@ const factoryData = [
         "name": "いすゞ製作所",
         "names": {
             "ja": "いすゞ製作所",
-            "en": "いすゞ製作所",
-            "zh-TW": "いすゞ製作所"
+            "en": "Isuzu Seisakusho",
+            "zh-TW": "五十鈴製作所"
         },
         "city": "三条市",
         "category": "その他製造",
@@ -2043,8 +2043,8 @@ const factoryData = [
         "name": "八木ヶ鼻温泉　いい湯らてい",
         "names": {
             "ja": "八木ヶ鼻温泉　いい湯らてい",
-            "en": "八木ヶ鼻温泉 いい湯らてい",
-            "zh-TW": "八木ヶ鼻温泉 いい湯らてい"
+            "en": "Yagigahana Onsen Iiyuratei",
+            "zh-TW": "八木鼻溫泉 いい湯らてい"
         },
         "city": "三条市",
         "category": "その他サービス",

@@ -1,0 +1,30 @@
+{
+  "name": "tsubame-sanjo-factory-map",
+  "version": "1.0.0",
+  "description": "Interactive map for Tsubame Sanjo Factory Festival with multilingual support",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/tsubame-sanjo-factory-map.git"
+  },
+  "keywords": [
+    "map",
+    "factory",
+    "tsubame",
+    "sanjo",
+    "leaflet",
+    "multilingual",
+    "interactive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/tsubame-sanjo-factory-map/issues"
+  },
+  "homepage": "https://yourusername.github.io/tsubame-sanjo-factory-map/"
+}
