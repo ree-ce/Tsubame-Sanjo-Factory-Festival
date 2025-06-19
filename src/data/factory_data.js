@@ -12,7 +12,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0123 新潟県燕市五千石",
         "api_lat": 37.6097373,
         "api_lng": 138.84195069999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6097373,138.84195069999998"
+        "google_maps_link": "https://maps.google.com/?cid=10020046439390969814"
     },
     {
         "name": "矢島精工 ★",
@@ -27,7 +27,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0118 新潟県燕市分水向山１丁目２−７",
         "api_lat": 37.625774,
         "api_lng": 138.845396,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.625774,138.845396"
+        "google_maps_link": "https://maps.google.com/?cid=5406651938209673554"
     },
     {
         "name": "道の駅SORAIRO国上",
@@ -42,7 +42,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0136 新潟県燕市国上５８６６−１",
         "api_lat": 37.6628537,
         "api_lng": 138.8251828,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6628537,138.8251828"
+        "google_maps_link": "https://maps.google.com/?cid=10079552258466741498"
     },
     {
         "name": "オリロー 新潟工場 ★",
@@ -57,7 +57,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0227 新潟県燕市粟生津７２４−２",
         "api_lat": 37.651269,
         "api_lng": 138.87346499999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.651269,138.87346499999998"
+        "google_maps_link": "https://maps.google.com/?cid=8742508890898481760"
     },
     {
         "name": "TSUBAME BEER ★",
@@ -72,7 +72,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0222 新潟県燕市下粟生津２７２−１",
         "api_lat": 37.6535838,
         "api_lng": 138.8731486,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6535838,138.8731486"
+        "google_maps_link": "https://maps.google.com/?cid=13487195994540444204"
     },
     {
         "name": "燕市長善館史料館 ★",
@@ -87,7 +87,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0227 新潟県燕市粟生津９７",
         "api_lat": 37.651871199999995,
         "api_lng": 138.86926259999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.651871199999995,138.86926259999998"
+        "google_maps_link": "https://maps.google.com/?cid=13660148526677148434"
     },
     {
         "name": "ほしゆう",
@@ -102,7 +102,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0232 新潟県燕市吉田東栄町７−８",
         "api_lat": 37.683684400000004,
         "api_lng": 138.8769518,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.683684400000004,138.8769518"
+        "google_maps_link": "https://maps.google.com/?cid=18184434313055058629"
     },
     {
         "name": "藤次郎オープンファクトリー",
@@ -117,7 +117,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0232 新潟県燕市吉田東栄町９−５",
         "api_lat": 37.6835711,
         "api_lng": 138.8775236,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6835711,138.8775236"
+        "google_maps_link": "https://maps.google.com/?cid=16861667053070547058"
     },
     {
         "name": "小林鉄工 ★",
@@ -132,7 +132,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0211 新潟県燕市富永４０２−１",
         "api_lat": 37.699355,
         "api_lng": 138.89355,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.699355,138.89355"
+        "google_maps_link": "https://maps.google.com/?cid=1217194320736224058"
     },
     {
         "name": "日本洋食器",
@@ -147,7 +147,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0214 新潟県燕市吉田法花堂１９４９",
         "api_lat": 37.675790299999996,
         "api_lng": 138.8956419,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.675790299999996,138.8956419"
+        "google_maps_link": "https://maps.google.com/?cid=16451721643510553199"
     },
     {
         "name": "吉川金属",
@@ -162,14 +162,14 @@ const factoryData = [
         "api_found_address": "日本、〒959-0214 新潟県燕市吉田法花堂１９６１",
         "api_lat": 37.6750608,
         "api_lng": 138.8955004,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6750608,138.8955004"
+        "google_maps_link": "https://maps.google.com/?cid=15959222823965140743"
     },
     {
         "name": "イワツキメディカル ★",
         "names": {
             "ja": "イワツキメディカル ★",
             "en": "Iwatsuki Medical ★",
-            "zh-TW": "イワツキメディカル ★"
+            "zh-TW": "Iwatsuki Medical ★"
         },
         "city": "弥彦村",
         "category": "その他サービス",
@@ -177,7 +177,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0323 新潟県西蒲原郡弥彦村弥彦８７５",
         "api_lat": 37.7006064,
         "api_lng": 138.82466159999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.7006064,138.82466159999998"
+        "google_maps_link": "https://maps.google.com/?cid=8546453460584422836"
     },
     {
         "name": "おもてなし広場 ★",
@@ -192,7 +192,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0323 新潟県西蒲原郡弥彦村弥彦１１２１",
         "api_lat": 37.7014493,
         "api_lng": 138.8297006,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.7014493,138.8297006"
+        "google_maps_link": "https://maps.google.com/?cid=17435743135616187510"
     },
     {
         "name": "後藤金属工業",
@@ -207,7 +207,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1287 新潟県燕市大関３４８",
         "api_lat": 37.670725,
         "api_lng": 138.89883899999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.670725,138.89883899999998"
+        "google_maps_link": "https://maps.google.com/?cid=2269245988747390284"
     },
     {
         "name": "フカウミ",
@@ -222,7 +222,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1287 新潟県燕市大関２７３−１",
         "api_lat": 37.666029,
         "api_lng": 138.9002141,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.666029,138.9002141"
+        "google_maps_link": "https://maps.google.com/?cid=960889636784408669"
     },
     {
         "name": "斉藤工業",
@@ -237,7 +237,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1286 新潟県燕市小関１１５６−１",
         "api_lat": 37.6630262,
         "api_lng": 138.89875039999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6630262,138.89875039999998"
+        "google_maps_link": "https://maps.google.com/?cid=6948218181523223161"
     },
     {
         "name": "藤田金屬株式会社 燕支店",
@@ -252,7 +252,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1271 新潟県燕市蔵関４３５−１",
         "api_lat": 37.657505,
         "api_lng": 138.9013214,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.657505,138.9013214"
+        "google_maps_link": "https://maps.google.com/?cid=13863945372239365844"
     },
     {
         "name": "燕市磨き屋一番館",
@@ -267,7 +267,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1276 新潟県燕市小池３６３３−７",
         "api_lat": 37.6506348,
         "api_lng": 138.8944397,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6506348,138.8944397"
+        "google_maps_link": "https://maps.google.com/?cid=4723617547639909478"
     },
     {
         "name": "燕物産",
@@ -282,7 +282,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1276 新潟県燕市小池３５０１",
         "api_lat": 37.652433099999996,
         "api_lng": 138.895082,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.652433099999996,138.895082"
+        "google_maps_link": "https://maps.google.com/?cid=1665567736769653360"
     },
     {
         "name": "青芳",
@@ -297,7 +297,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1276 新潟県燕市小池５１４３",
         "api_lat": 37.6529301,
         "api_lng": 138.8922795,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6529301,138.8922795"
+        "google_maps_link": "https://maps.google.com/?cid=15821370308938782503"
     },
     {
         "name": "KOGU 家事問屋",
@@ -312,7 +312,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1276 新潟県燕市小池４８０３−４",
         "api_lat": 37.645869999999995,
         "api_lng": 138.8911408,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.645869999999995,138.8911408"
+        "google_maps_link": "https://maps.google.com/?cid=9787341881598325287"
     },
     {
         "name": "シンワ測定",
@@ -327,7 +327,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1276 新潟県燕市小池３４８１",
         "api_lat": 37.647009,
         "api_lng": 138.895974,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.647009,138.895974"
+        "google_maps_link": "https://maps.google.com/?cid=15003371985269041631"
     },
     {
         "name": "HORIE ㈱ホリエ ★",
@@ -342,7 +342,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1276 新潟県燕市小池５０９０",
         "api_lat": 37.6483242,
         "api_lng": 138.8925864,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6483242,138.8925864"
+        "google_maps_link": "https://maps.google.com/?cid=5334384312757889444"
     },
     {
         "name": "サクライ",
@@ -357,7 +357,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1277 新潟県燕市物流センター１丁目１１",
         "api_lat": 37.651075,
         "api_lng": 138.90179799999999,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.651075,138.90179799999999"
+        "google_maps_link": "https://maps.google.com/?cid=9058055279422270947"
     },
     {
         "name": "武田金型製作所",
@@ -372,7 +372,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1289 新潟県燕市東太田１６−１",
         "api_lat": 37.6767258,
         "api_lng": 138.9094398,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6767258,138.9094398"
+        "google_maps_link": "https://maps.google.com/?cid=17926005487671621034"
     },
     {
         "name": "MGNET",
@@ -387,7 +387,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1289 新潟県燕市東太田１３−２",
         "api_lat": 37.6764985,
         "api_lng": 138.9092512,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6764985,138.9092512"
+        "google_maps_link": "https://maps.google.com/?cid=3804107310073483531"
     },
     {
         "name": "一菱金属",
@@ -402,7 +402,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1288 新潟県燕市燕２１−１",
         "api_lat": 37.675506299999995,
         "api_lng": 138.9119192,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.675506299999995,138.9119192"
+        "google_maps_link": "https://maps.google.com/?cid=7056668540860422257"
     },
     {
         "name": "タケダ",
@@ -417,7 +417,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1201 新潟県燕市灰方332番地",
         "api_lat": 37.6789244,
         "api_lng": 138.9293112,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6789244,138.9293112"
+        "google_maps_link": "https://maps.google.com/?cid=11455943797157633121"
     },
     {
         "name": "片力自研 ★",
@@ -432,7 +432,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1241 新潟県燕市小高１１１６",
         "api_lat": 37.666283,
         "api_lng": 138.938493,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.666283,138.938493"
+        "google_maps_link": "https://maps.google.com/?cid=763765450860971366"
     },
     {
         "name": "玉川堂",
@@ -447,7 +447,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1244 新潟県燕市中央通２丁目２−２１",
         "api_lat": 37.6649987,
         "api_lng": 138.9293299,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6649987,138.9293299"
+        "google_maps_link": "https://maps.google.com/?cid=16353458329367393465"
     },
     {
         "name": "LUCKYWOOD 小林工業株式会社",
@@ -462,7 +462,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1234 新潟県燕市南５丁目１１−３５",
         "api_lat": 37.656987099999995,
         "api_lng": 138.9300793,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.656987099999995,138.9300793"
+        "google_maps_link": "https://maps.google.com/?cid=11658766523036815095"
     },
     {
         "name": "パティスリーアンジュ ★",
@@ -477,7 +477,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1232 新潟県燕市井土巻２丁目２４５",
         "api_lat": 37.652465,
         "api_lng": 138.9325096,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.652465,138.9325096"
+        "google_maps_link": "https://maps.google.com/?cid=1537511814334634758"
     },
     {
         "name": "燕市産業史料館",
@@ -492,7 +492,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1263 新潟県燕市大曲４３３０−１",
         "api_lat": 37.652754,
         "api_lng": 138.91916899999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.652754,138.91916899999998"
+        "google_maps_link": "https://maps.google.com/?cid=7492826995509269694"
     },
     {
         "name": "山崎金属工業",
@@ -507,7 +507,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1263 新潟県燕市大曲２５７０",
         "api_lat": 37.6481936,
         "api_lng": 138.9168003,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6481936,138.9168003"
+        "google_maps_link": "https://maps.google.com/?cid=9270273898635645747"
     },
     {
         "name": "燕器工 ★",
@@ -522,7 +522,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1264 新潟県燕市八王寺１５９９",
         "api_lat": 37.642193999999996,
         "api_lng": 138.917016,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.642193999999996,138.917016"
+        "google_maps_link": "https://maps.google.com/?cid=17162091156028223534"
     },
     {
         "name": "マルト長谷川工作所",
@@ -537,7 +537,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0831 新潟県三条市土場１６−１",
         "api_lat": 37.6147036,
         "api_lng": 138.92686039999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6147036,138.92686039999998"
+        "google_maps_link": "https://maps.google.com/?cid=1709393468591452663"
     },
     {
         "name": "近藤製作所",
@@ -552,7 +552,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1151 新潟県三条市猪子場新田２１６５−９",
         "api_lat": 37.613664199999995,
         "api_lng": 138.928132,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.613664199999995,138.928132"
+        "google_maps_link": "https://maps.google.com/?cid=15170173235289121831"
     },
     {
         "name": "山村製作所",
@@ -567,7 +567,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0814 新潟県三条市金子新田丙８７５-２０ 丙８７５ ６",
         "api_lat": 37.6108208,
         "api_lng": 138.9316487,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6108208,138.9316487"
+        "google_maps_link": "https://maps.google.com/?cid=18025028133844597894"
     },
     {
         "name": "田中衡機工業所",
@@ -582,7 +582,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1156 新潟県三条市福島新田丙２３１８−１",
         "api_lat": 37.6048733,
         "api_lng": 138.919265,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6048733,138.919265"
+        "google_maps_link": "https://maps.google.com/?cid=11270016701746962129"
     },
     {
         "name": "倉茂木工所",
@@ -597,7 +597,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1152 新潟県三条市一ツ屋敷新田１５９１−２",
         "api_lat": 37.604414999999996,
         "api_lng": 138.91583269999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.604414999999996,138.91583269999998"
+        "google_maps_link": "https://maps.google.com/?cid=1081729778358513773"
     },
     {
         "name": "三条特殊鋳工所（UNILLOY）",
@@ -612,7 +612,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1156 新潟県三条市福島新田丁６４２",
         "api_lat": 37.587736,
         "api_lng": 138.908536,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.587736,138.908536"
+        "google_maps_link": "https://maps.google.com/?cid=17054829440317289025"
     },
     {
         "name": "IPS PLIERS",
@@ -627,7 +627,7 @@ const factoryData = [
         "api_found_address": "日本、〒954-0104 新潟県見附市坂井町１丁目４−３",
         "api_lat": 37.562639,
         "api_lng": 138.892071,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.562639,138.892071"
+        "google_maps_link": "https://maps.google.com/?cid=12063577438450057039"
     },
     {
         "name": "SUWADA",
@@ -642,7 +642,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1114 新潟県三条市高安寺１３３２",
         "api_lat": 37.56510480000001,
         "api_lng": 138.93767119999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.56510480000001,138.93767119999998"
+        "google_maps_link": "https://maps.google.com/?cid=13395388378500109082"
     },
     {
         "name": "マルナオ",
@@ -657,7 +657,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-1107 新潟県三条市矢田１６６２−１",
         "api_lat": 37.574562,
         "api_lng": 138.94907000000003,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.574562,138.94907000000003"
+        "google_maps_link": "https://maps.google.com/?cid=3356898314265321246"
     },
     {
         "name": "公益財団法人燕三条地場産業振興センター",
@@ -672,7 +672,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0092 新潟県三条市須頃１丁目 １７番地 1F",
         "api_lat": 37.6496707,
         "api_lng": 138.933695,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6496707,138.933695"
+        "google_maps_link": "https://maps.google.com/?cid=5952114541131532054"
     },
     {
         "name": "燕三条駅観光物産センター 燕三条Wing",
@@ -687,7 +687,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0093 新潟県三条市下須頃５０２−３",
         "api_lat": 37.6486148,
         "api_lng": 138.93929889999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6486148,138.93929889999998"
+        "google_maps_link": "https://maps.google.com/?cid=10586367280588548440"
     },
     {
         "name": "公立大学法人三条市立大学 ★",
@@ -702,7 +702,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0091 新潟県三条市上須頃5002番地5",
         "api_lat": 37.643842,
         "api_lng": 138.9309084,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.643842,138.9309084"
+        "google_maps_link": "https://maps.google.com/?cid=284686223802928884"
     },
     {
         "name": "三条鍛冶道場",
@@ -717,7 +717,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0072 新潟県三条市元町１１−５３",
         "api_lat": 37.632823699999996,
         "api_lng": 138.9534761,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.632823699999996,138.9534761"
+        "google_maps_link": "https://maps.google.com/?cid=2566258523125529785"
     },
     {
         "name": "三条スパイス研究所",
@@ -732,7 +732,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0072 新潟県三条市元町１１−６３",
         "api_lat": 37.6325091,
         "api_lng": 138.9547254,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6325091,138.9547254"
+        "google_maps_link": "https://maps.google.com/?cid=12990435197904851453"
     },
     {
         "name": "三条市歴史民俗産業資料館",
@@ -747,7 +747,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0071 新潟県三条市本町３丁目１−４",
         "api_lat": 37.632021,
         "api_lng": 138.95674,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.632021,138.95674"
+        "google_maps_link": "https://maps.google.com/?cid=12090115551535421485"
     },
     {
         "name": "下村工業",
@@ -762,7 +762,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0033 新潟県三条市西大崎１丁目１６−２",
         "api_lat": 37.6241445,
         "api_lng": 138.9849322,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6241445,138.9849322"
+        "google_maps_link": "https://maps.google.com/?cid=2385505378220900039"
     },
     {
         "name": "福顔酒造",
@@ -777,7 +777,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0061 新潟県三条市林町１丁目５−３８",
         "api_lat": 37.6289776,
         "api_lng": 138.9642543,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6289776,138.9642543"
+        "google_maps_link": "https://maps.google.com/?cid=7727092962174955194"
     },
     {
         "name": "レジエ",
@@ -792,7 +792,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0862 新潟県三条市南新保６−１６",
         "api_lat": 37.6228208,
         "api_lng": 138.9603314,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6228208,138.9603314"
+        "google_maps_link": "https://maps.google.com/?cid=16477738398349356347"
     },
     {
         "name": "笹川メッキ",
@@ -807,7 +807,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0862 新潟県三条市南新保１６−１９",
         "api_lat": 37.619476,
         "api_lng": 138.959745,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.619476,138.959745"
+        "google_maps_link": "https://maps.google.com/?cid=559558936734375441"
     },
     {
         "name": "マルヨネ ★",
@@ -822,7 +822,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0853 新潟県三条市北四日町３−２１",
         "api_lat": 37.625,
         "api_lng": 138.956337,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.625,138.956337"
+        "google_maps_link": "https://maps.google.com/?cid=4449681928492758524"
     },
     {
         "name": "三条ものづくり学校",
@@ -837,7 +837,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0844 新潟県三条市桜木町１２−３８",
         "api_lat": 37.6191706,
         "api_lng": 138.94846719999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6191706,138.94846719999998"
+        "google_maps_link": "https://maps.google.com/?cid=3007586976741059790"
     },
     {
         "name": "角利製作所",
@@ -852,7 +852,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0845 新潟県三条市西本成寺２丁目３−５３",
         "api_lat": 37.6158516,
         "api_lng": 138.94522279999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6158516,138.94522279999998"
+        "google_maps_link": "https://maps.google.com/?cid=374489677215036108"
     },
     {
         "name": "ON THE UMAMI TSUBAME SANJO PORT",
@@ -867,7 +867,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0845 新潟県三条市西本成寺２丁目２４−24番23号",
         "api_lat": 37.6139382,
         "api_lng": 138.93636170000002,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6139382,138.93636170000002"
+        "google_maps_link": "https://maps.google.com/?cid=2162036771431330168"
     },
     {
         "name": "トップ工業",
@@ -882,7 +882,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0055 新潟県三条市塚野目２１９０−５",
         "api_lat": 37.6527788,
         "api_lng": 138.97301810000002,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6527788,138.97301810000002"
+        "google_maps_link": "https://maps.google.com/?cid=13894805793206012799"
     },
     {
         "name": "野崎忠五郎商店",
@@ -897,7 +897,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0055 新潟県三条市塚野目２１４９",
         "api_lat": 37.65513,
         "api_lng": 138.974685,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.65513,138.974685"
+        "google_maps_link": "https://maps.google.com/?cid=12706427731055868820"
     },
     {
         "name": "石﨑剣山製作所",
@@ -912,7 +912,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0021 新潟県三条市下保内４０９−１２",
         "api_lat": 37.642869,
         "api_lng": 139.01631899999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.642869,139.01631899999998"
+        "google_maps_link": "https://maps.google.com/?cid=100885206741853983"
     },
     {
         "name": "道の駅 庭園の郷 保内",
@@ -927,7 +927,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0021 新潟県三条市下保内４０３５",
         "api_lat": 37.646932799999995,
         "api_lng": 139.0264316,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.646932799999995,139.0264316"
+        "google_maps_link": "https://maps.google.com/?cid=7920984678820198528"
     },
     {
         "name": "山忠",
@@ -942,7 +942,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1361 新潟県加茂市下条甲４３５−１",
         "api_lat": 37.653318,
         "api_lng": 139.03868789999999,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.653318,139.03868789999999"
+        "google_maps_link": "https://maps.google.com/?cid=11816124235809955326"
     },
     {
         "name": "KIDORI★",
@@ -957,7 +957,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1332 新潟県加茂市上条１−１０",
         "api_lat": 37.659350499999995,
         "api_lng": 139.060822,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.659350499999995,139.060822"
+        "google_maps_link": "https://maps.google.com/?cid=9667628789743883856"
     },
     {
         "name": "道の駅たがみ★",
@@ -972,7 +972,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1503 新潟県南蒲原郡田上町原ケ崎新田3072ｰ1",
         "api_lat": 37.6983296,
         "api_lng": 139.05897199999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6983296,139.05897199999998"
+        "google_maps_link": "https://maps.google.com/?cid=8697290026877594263"
     },
     {
         "name": "有本製作所",
@@ -987,7 +987,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0151 新潟県三条市荻堀１３９７−７４",
         "api_lat": 37.573988,
         "api_lng": 139.023829,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.573988,139.023829"
+        "google_maps_link": "https://maps.google.com/?cid=5346379855620126691"
     },
     {
         "name": "清水工業 ★",
@@ -1002,7 +1002,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0036 新潟県三条市篭場１１−１７",
         "api_lat": 37.605056999999995,
         "api_lng": 138.9964616,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.605056999999995,138.9964616"
+        "google_maps_link": "https://maps.google.com/?cid=6426513141759881629"
     },
     {
         "name": "道の駅漢学の里しただ",
@@ -1017,7 +1017,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0131 新潟県三条市庭月４５１−１",
         "api_lat": 37.542300399999995,
         "api_lng": 139.1026901,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.542300399999995,139.1026901"
+        "google_maps_link": "https://maps.google.com/?cid=4705810920701610293"
     },
     {
         "name": "アイアンプラネットBASE of 三条 ★",
@@ -1027,12 +1027,12 @@ const factoryData = [
             "zh-TW": "Iron Planet BASE of 三条 ★"
         },
         "city": "三条市",
-        "category": "Metal Parts Manufacturing",
+        "category": "金属部品製造",
         "api_found_name": "アイアンプラネット ベースオブ 三条",
         "api_found_address": "日本、〒955-0141 新潟県三条市荒沢３８４−１",
         "api_lat": 37.530981499999996,
         "api_lng": 139.0940585,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.530981499999996,139.0940585"
+        "google_maps_link": "https://maps.google.com/?cid=7897167724858284401"
     },
     {
         "name": "八木ヶ鼻温泉 いい湯らてい",
@@ -1047,7 +1047,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0128 新潟県三条市南五百川１６−１",
         "api_lat": 37.5390441,
         "api_lng": 139.1254478,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.5390441,139.1254478"
+        "google_maps_link": "https://maps.google.com/?cid=13277843555775606223"
     },
     {
         "name": "明田川自研",
@@ -1057,12 +1057,12 @@ const factoryData = [
             "zh-TW": "明田川自研"
         },
         "city": "燕市",
-        "category": "Metal Processing",
+        "category": "金属加工",
         "api_found_name": "明田川自研",
         "api_found_address": "日本、〒959-0105 新潟県燕市中島６３２",
         "api_lat": 37.6454944,
         "api_lng": 138.83418609999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6454944,138.83418609999998"
+        "google_maps_link": "https://maps.google.com/?cid=17486731868706816922"
     },
     {
         "name": "くみ木の森",
@@ -1077,7 +1077,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0135 新潟県燕市渡部１８０６−６",
         "api_lat": 37.6496876,
         "api_lng": 138.80434270000003,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6496876,138.80434270000003"
+        "google_maps_link": "https://maps.google.com/?cid=5537491818224996626"
     },
     {
         "name": "ＭＲオート",
@@ -1092,7 +1092,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0227 新潟県燕市粟生津２４８０−１",
         "api_lat": 37.642393999999996,
         "api_lng": 138.8714521,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.642393999999996,138.8714521"
+        "google_maps_link": "https://maps.google.com/?cid=17892744407068147154"
     },
     {
         "name": "オリロー　新潟工場　★",
@@ -1107,7 +1107,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0227 新潟県燕市粟生津７２４−２",
         "api_lat": 37.651269,
         "api_lng": 138.87346499999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.651269,138.87346499999998"
+        "google_maps_link": "https://maps.google.com/?cid=8742508890898481760"
     },
     {
         "name": "more cafe ★",
@@ -1122,7 +1122,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0222 新潟県燕市下粟生津６１６−１０",
         "api_lat": 37.6543776,
         "api_lng": 138.8729437,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6543776,138.8729437"
+        "google_maps_link": "https://maps.google.com/?cid=7560241562034755394"
     },
     {
         "name": "atelier jul ★",
@@ -1137,7 +1137,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1263 新潟県燕市大曲３６１７",
         "api_lat": 37.6458641,
         "api_lng": 138.917274,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6458641,138.917274"
+        "google_maps_link": "https://maps.google.com/?cid=16229473238208403298"
     },
     {
         "name": "サーキュラーソフトクリーム",
@@ -1152,7 +1152,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0232 新潟県燕市吉田東栄町６−３０",
         "api_lat": 37.6839909,
         "api_lng": 138.87580509999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6839909,138.87580509999998"
+        "google_maps_link": "https://maps.google.com/?cid=14753092377540467567"
     },
     {
         "name": "ひうら農場",
@@ -1167,7 +1167,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0268 新潟県燕市吉田本町１０６４",
         "api_lat": 37.7093256,
         "api_lng": 138.8757339,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.7093256,138.8757339"
+        "google_maps_link": "https://maps.google.com/?cid=13170538413916568075"
     },
     {
         "name": "総合建築行栄",
@@ -1182,7 +1182,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0211 新潟県燕市富永１３−１",
         "api_lat": 37.6910995,
         "api_lng": 138.8904882,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6910995,138.8904882"
+        "google_maps_link": "https://maps.google.com/?cid=6656649938010345790"
     },
     {
         "name": "Wing-D ★",
@@ -1197,7 +1197,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0214 新潟県燕市吉田法花堂1853番地11",
         "api_lat": 37.676812,
         "api_lng": 138.8935271,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.676812,138.8935271"
+        "google_maps_link": "https://maps.google.com/?cid=14451775384365018632"
     },
     {
         "name": "藤田金屬株式会社　燕支店",
@@ -1212,7 +1212,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1271 新潟県燕市蔵関４３５−１",
         "api_lat": 37.657505,
         "api_lng": 138.9013214,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.657505,138.9013214"
+        "google_maps_link": "https://maps.google.com/?cid=13863945372239365844"
     },
     {
         "name": "High Grade store ★",
@@ -1227,7 +1227,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1272 新潟県燕市杉柳９１２−１",
         "api_lat": 37.652401,
         "api_lng": 138.9026423,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.652401,138.9026423"
+        "google_maps_link": "https://maps.google.com/?cid=5944618672470240786"
     },
     {
         "name": "ワークスサイマツ",
@@ -1242,7 +1242,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-0111 新潟県燕市横田２７３９",
         "api_lat": 37.649043999999996,
         "api_lng": 138.888475,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.649043999999996,138.888475"
+        "google_maps_link": "https://maps.google.com/?cid=14689059410119631424"
     },
     {
         "name": "澤田勇一朗　★",
@@ -1257,7 +1257,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1280 新潟県燕市花見１７５",
         "api_lat": 37.6785853,
         "api_lng": 138.9096275,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6785853,138.9096275"
+        "google_maps_link": "https://maps.google.com/?cid=13109779543423621550"
     },
     {
         "name": "WAAS FACTORY",
@@ -1272,7 +1272,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1201 新潟県燕市灰方５９３−１",
         "api_lat": 37.684472,
         "api_lng": 138.9335078,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.684472,138.9335078"
+        "google_maps_link": "https://maps.google.com/?cid=14307864290653319066"
     },
     {
         "name": "RORNO",
@@ -1287,7 +1287,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1289 新潟県燕市東太田１２２２",
         "api_lat": 37.6778684,
         "api_lng": 138.93350429999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6778684,138.93350429999998"
+        "google_maps_link": "https://maps.google.com/?cid=9411945143393008254"
     },
     {
         "name": "キッチンラボ 燕宮町店　★",
@@ -1302,7 +1302,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1257 新潟県燕市宮町６−２７",
         "api_lat": 37.6641256,
         "api_lng": 138.9260007,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6641256,138.9260007"
+        "google_maps_link": "https://maps.google.com/?cid=37186793763564844"
     },
     {
         "name": "レウス　★",
@@ -1317,7 +1317,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1221 新潟県燕市花園町４−８",
         "api_lat": 37.683171099999996,
         "api_lng": 138.95300799999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.683171099999996,138.95300799999998"
+        "google_maps_link": "https://maps.google.com/?cid=8582569097220831245"
     },
     {
         "name": "ハーヴェスト",
@@ -1332,7 +1332,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1232 新潟県燕市井土巻１丁目４５８−３",
         "api_lat": 37.655789899999995,
         "api_lng": 138.9345865,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.655789899999995,138.9345865"
+        "google_maps_link": "https://maps.google.com/?cid=1430012408159234091"
     },
     {
         "name": "LUCKYWOOD",
@@ -1343,11 +1343,11 @@ const factoryData = [
         },
         "city": "燕市",
         "category": "金属製品製造",
-        "api_found_name": "LUCKY WOOD",
-        "api_found_address": "日本、〒959-1233 新潟県燕市殿島２丁目１０",
-        "api_lat": 37.6572371,
-        "api_lng": 138.92941489999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6572371,138.92941489999998"
+        "api_found_name": "小林工業(株) 本社",
+        "api_found_address": "日本、〒959-1234 新潟県燕市南５丁目１１−３５",
+        "api_lat": 37.656987099999995,
+        "api_lng": 138.9300793,
+        "google_maps_link": "https://maps.google.com/?cid=11658766523036815095"
     },
     {
         "name": "高賢",
@@ -1362,7 +1362,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1264 新潟県燕市八王寺１４３９",
         "api_lat": 37.6426794,
         "api_lng": 138.91793959999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6426794,138.91793959999998"
+        "google_maps_link": "https://maps.google.com/?cid=15598616550939959077"
     },
     {
         "name": "熊倉シャーリング",
@@ -1377,7 +1377,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1273 新潟県燕市杉名４５",
         "api_lat": 37.638011,
         "api_lng": 138.907576,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.638011,138.907576"
+        "google_maps_link": "https://maps.google.com/?cid=11173321827917840569"
     },
     {
         "name": "コスモ・スミス",
@@ -1392,7 +1392,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0814 新潟県三条市金子新田８７５−１８",
         "api_lat": 37.610851,
         "api_lng": 138.93209299999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.610851,138.93209299999998"
+        "google_maps_link": "https://maps.google.com/?cid=11164784209624594125"
     },
     {
         "name": "テーエム",
@@ -1407,7 +1407,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0814 新潟県三条市金子新田９６７",
         "api_lat": 37.6093259,
         "api_lng": 138.9341485,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6093259,138.9341485"
+        "google_maps_link": "https://maps.google.com/?cid=100123724403132695"
     },
     {
         "name": "北興商事",
@@ -1422,7 +1422,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0814 新潟県三条市金子新田３１６−１",
         "api_lat": 37.607419,
         "api_lng": 138.93625179999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.607419,138.93625179999998"
+        "google_maps_link": "https://maps.google.com/?cid=13852466364292826392"
     },
     {
         "name": "ハイサーブウエノ",
@@ -1437,7 +1437,7 @@ const factoryData = [
         "api_found_address": "日本、〒959-1156 新潟県三条市福島新田丙２４０６",
         "api_lat": 37.6007454,
         "api_lng": 138.91170499999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6007454,138.91170499999998"
+        "google_maps_link": "https://maps.google.com/?cid=819250777775351980"
     },
     {
         "name": "こうばの窓口",
@@ -1452,7 +1452,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0092 新潟県三条市下須頃４９７",
         "api_lat": 37.648409099999995,
         "api_lng": 138.9391994,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.648409099999995,138.9391994"
+        "google_maps_link": "https://maps.google.com/?cid=8406490391891891572"
     },
     {
         "name": "KYOWAクラシックカー＆ライフステーション　★",
@@ -1467,7 +1467,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0091 新潟県三条市上須頃２９−１",
         "api_lat": 37.634233099999996,
         "api_lng": 138.9409657,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.634233099999996,138.9409657"
+        "google_maps_link": "https://maps.google.com/?cid=7737938326067816004"
     },
     {
         "name": "ベルモント",
@@ -1482,7 +1482,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0083 新潟県三条市荒町２丁目１２−１１",
         "api_lat": 37.640062799999995,
         "api_lng": 138.9493617,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.640062799999995,138.9493617"
+        "google_maps_link": "https://maps.google.com/?cid=2234631168461271714"
     },
     {
         "name": "鍛冶ミュージアム",
@@ -1497,7 +1497,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0072 新潟県三条市元町１１−１１−６",
         "api_lat": 37.6323025,
         "api_lng": 138.95402009999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6323025,138.95402009999998"
+        "google_maps_link": "https://maps.google.com/?cid=3193933256821080923"
     },
     {
         "name": "ほまれあ",
@@ -1512,7 +1512,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0072 新潟県三条市元町１−６",
         "api_lat": 37.6317496,
         "api_lng": 138.9562381,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6317496,138.9562381"
+        "google_maps_link": "https://maps.google.com/?cid=12226472779444791907"
     },
     {
         "name": "須藤凧屋　★",
@@ -1527,7 +1527,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0081 新潟県三条市東裏館２丁目２−１６ 須藤凧屋",
         "api_lat": 37.6359912,
         "api_lng": 138.9599998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6359912,138.9599998"
+        "google_maps_link": "https://maps.google.com/?cid=17619821147030202205"
     },
     {
         "name": "剣謙心",
@@ -1542,7 +1542,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0056 新潟県三条市嘉坪川１丁目１４−１２",
         "api_lat": 37.6389115,
         "api_lng": 138.9670652,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6389115,138.9670652"
+        "google_maps_link": "https://maps.google.com/?cid=9816527405079912182"
     },
     {
         "name": "今井畳店",
@@ -1557,22 +1557,22 @@ const factoryData = [
         "api_found_address": "日本、〒955-0046 新潟県三条市興野２丁目５−２７",
         "api_lat": 37.631588,
         "api_lng": 138.972591,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.631588,138.972591"
+        "google_maps_link": "https://maps.google.com/?cid=3322487206089726959"
     },
     {
         "name": "にいがた県央マイスター20周年記念イベント",
+        "names": {
+            "ja": "にいがた県央マイスター20周年記念イベント",
+            "en": "Niigata Kenno Meister 20th Anniversary Event",
+            "zh-TW": "新潟縣央名匠20週年紀念活動"
+        },
         "city": "三条市",
         "category": "その他サービス",
         "api_found_name": "N/A",
         "api_found_address": "N/A",
         "api_lat": null,
         "api_lng": null,
-        "google_maps_link": "N/A",
-        "names": {
-            "ja": "にいがた県央マイスター20周年記念イベント",
-            "en": "Niigata Kenno Meister 20th Anniversary Event",
-            "zh-TW": "新潟縣央名匠20週年紀念活動"
-        }
+        "google_maps_link": "N/A"
     },
     {
         "name": "デフィジャポン",
@@ -1587,7 +1587,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0051 新潟県三条市鶴田２丁目３−３９",
         "api_lat": 37.6406868,
         "api_lng": 138.9857987,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6406868,138.9857987"
+        "google_maps_link": "https://maps.google.com/?cid=1634358703156247969"
     },
     {
         "name": "村の鍛冶屋",
@@ -1602,7 +1602,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0053 新潟県三条市北入蔵２丁目２−５７",
         "api_lat": 37.635593199999995,
         "api_lng": 138.9837849,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.635593199999995,138.9837849"
+        "google_maps_link": "https://maps.google.com/?cid=7362041430853474430"
     },
     {
         "name": "プログラフ",
@@ -1617,7 +1617,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0053 新潟県三条市北入蔵１丁目９−２０",
         "api_lat": 37.6307573,
         "api_lng": 138.9831932,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6307573,138.9831932"
+        "google_maps_link": "https://maps.google.com/?cid=16089637735511633876"
     },
     {
         "name": "藤田金屬株式会社　三条支店",
@@ -1632,7 +1632,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0041 新潟県三条市三竹３丁目１−５４",
         "api_lat": 37.629785999999996,
         "api_lng": 138.983198,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.629785999999996,138.983198"
+        "google_maps_link": "https://maps.google.com/?cid=12718859103313880364"
     },
     {
         "name": "絵本の店 omamori ★",
@@ -1647,7 +1647,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0071 新潟県三条市本町２丁目１３−９",
         "api_lat": 37.6285118,
         "api_lng": 138.9572293,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6285118,138.9572293"
+        "google_maps_link": "https://maps.google.com/?cid=6705497303901806850"
     },
     {
         "name": "三-Me.",
@@ -1662,7 +1662,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0063 新潟県三条市神明町５−３",
         "api_lat": 37.6294458,
         "api_lng": 138.96186609999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6294458,138.96186609999998"
+        "google_maps_link": "https://maps.google.com/?cid=11164214353106896203"
     },
     {
         "name": "TREE",
@@ -1677,7 +1677,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0062 新潟県三条市仲之町２−１５",
         "api_lat": 37.629452,
         "api_lng": 138.963395,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.629452,138.963395"
+        "google_maps_link": "https://maps.google.com/?cid=16819068725410439535"
     },
     {
         "name": "遊亀楼 魚 兵",
@@ -1692,7 +1692,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0045 新潟県三条市一ノ門１丁目２−１７",
         "api_lat": 37.6287653,
         "api_lng": 138.96633749999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6287653,138.96633749999998"
+        "google_maps_link": "https://maps.google.com/?cid=50469259729903988"
     },
     {
         "name": "金工作家　須佐 真",
@@ -1707,7 +1707,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0831 新潟県三条市土場７−４０",
         "api_lat": 37.614667,
         "api_lng": 138.928418,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.614667,138.928418"
+        "google_maps_link": "https://maps.google.com/?cid=3326503409200257442"
     },
     {
         "name": "いづみ商会",
@@ -1722,7 +1722,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0851 新潟県三条市西四日町３丁目５−８",
         "api_lat": 37.622054999999996,
         "api_lng": 138.950921,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.622054999999996,138.950921"
+        "google_maps_link": "https://maps.google.com/?cid=8311915291694833476"
     },
     {
         "name": "ファブラボ燕三条",
@@ -1737,7 +1737,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0844 新潟県三条市桜木町１２−３８ ３０４",
         "api_lat": 37.6191794,
         "api_lng": 138.9485968,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6191794,138.9485968"
+        "google_maps_link": "https://maps.google.com/?cid=10777253896556252140"
     },
     {
         "name": "杢|MOKU ★",
@@ -1752,7 +1752,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0805 新潟県三条市吉田９９−３",
         "api_lat": 37.6011205,
         "api_lng": 138.967825,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6011205,138.967825"
+        "google_maps_link": "https://maps.google.com/?cid=10850021863818597513"
     },
     {
         "name": "一成モールド",
@@ -1767,7 +1767,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0832 新潟県三条市直江町３丁目７−１２",
         "api_lat": 37.619198,
         "api_lng": 138.9353451,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.619198,138.9353451"
+        "google_maps_link": "https://maps.google.com/?cid=7189931082112325963"
     },
     {
         "name": "共和工業　★",
@@ -1782,7 +1782,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0832 新潟県三条市直江町４丁目１８−１８",
         "api_lat": 37.61882500000001,
         "api_lng": 138.929099,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.61882500000001,138.929099"
+        "google_maps_link": "https://maps.google.com/?cid=14673967110626503862"
     },
     {
         "name": "三井化学　★",
@@ -1797,7 +1797,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0832 新潟県三条市直江町４丁目１８−３９",
         "api_lat": 37.6192522,
         "api_lng": 138.92856559999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6192522,138.92856559999998"
+        "google_maps_link": "https://maps.google.com/?cid=17011812847044464723"
     },
     {
         "name": "野崎製作所",
@@ -1812,7 +1812,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0055 新潟県三条市塚野目 塚野目2134-1",
         "api_lat": 37.6531498,
         "api_lng": 138.9754286,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6531498,138.9754286"
+        "google_maps_link": "https://maps.google.com/?cid=15159551993015835427"
     },
     {
         "name": "野水鋼鐵店　★",
@@ -1827,7 +1827,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0002 新潟県三条市柳川新田９８２",
         "api_lat": 37.6626793,
         "api_lng": 138.9816608,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6626793,138.9816608"
+        "google_maps_link": "https://maps.google.com/?cid=2690123573440737979"
     },
     {
         "name": "シマト工業",
@@ -1842,7 +1842,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0002 新潟県三条市柳川新田９７８",
         "api_lat": 37.663329,
         "api_lng": 138.982486,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.663329,138.982486"
+        "google_maps_link": "https://maps.google.com/?cid=15388868294000137729"
     },
     {
         "name": "大島テラス960 ★",
@@ -1857,7 +1857,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0094 新潟県三条市大島９６０",
         "api_lat": 37.676809399999996,
         "api_lng": 138.966195,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.676809399999996,138.966195"
+        "google_maps_link": "https://maps.google.com/?cid=7268605384179910611"
     },
     {
         "name": "岡久　★",
@@ -1872,7 +1872,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0096 新潟県三条市井戸場５６８−４",
         "api_lat": 37.672895,
         "api_lng": 138.99609999999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.672895,138.99609999999998"
+        "google_maps_link": "https://maps.google.com/?cid=236661927730582814"
     },
     {
         "name": "渡辺果樹園",
@@ -1887,7 +1887,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0096 新潟県三条市井戸場１４３",
         "api_lat": 37.680116,
         "api_lng": 138.994864,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.680116,138.994864"
+        "google_maps_link": "https://maps.google.com/?cid=3784602072168360532"
     },
     {
         "name": "朝倉家具",
@@ -1902,7 +1902,7 @@ const factoryData = [
         "api_found_address": "日本、〒950-1456 新潟県新潟市南区茨曽根２５７４ 朝倉家具",
         "api_lat": 37.7176586,
         "api_lng": 139.0054066,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.7176586,139.0054066"
+        "google_maps_link": "https://maps.google.com/?cid=15210878065940520860"
     },
     {
         "name": "帝樹園庭正",
@@ -1917,7 +1917,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0003 新潟県三条市柳場新田１３４２−１",
         "api_lat": 37.665003999999996,
         "api_lng": 138.9995518,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.665003999999996,138.9995518"
+        "google_maps_link": "https://maps.google.com/?cid=17612773807418591967"
     },
     {
         "name": "ヤマトキ製作所",
@@ -1932,7 +1932,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0051 新潟県三条市鶴田４丁目４−１５",
         "api_lat": 37.6424793,
         "api_lng": 138.992552,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6424793,138.992552"
+        "google_maps_link": "https://maps.google.com/?cid=11894341033807465412"
     },
     {
         "name": "西山カートン",
@@ -1947,7 +1947,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0014 新潟県三条市西潟２４−３４",
         "api_lat": 37.640904,
         "api_lng": 138.99616899999998,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.640904,138.99616899999998"
+        "google_maps_link": "https://maps.google.com/?cid=12564445427710803160"
     },
     {
         "name": "みこし",
@@ -1962,7 +1962,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0014 新潟県三条市西潟２４−３４",
         "api_lat": 37.640929,
         "api_lng": 138.996216,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.640929,138.996216"
+        "google_maps_link": "https://maps.google.com/?cid=2559589023864609372"
     },
     {
         "name": "マサコー山口木工",
@@ -1977,7 +1977,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0021 新潟県三条市下保内２６４",
         "api_lat": 37.643833,
         "api_lng": 139.022796,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.643833,139.022796"
+        "google_maps_link": "https://maps.google.com/?cid=9685100497227438323"
     },
     {
         "name": "青柳木工 ★",
@@ -1992,7 +1992,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0021 新潟県三条市下保内１１１８−１",
         "api_lat": 37.64625100000001,
         "api_lng": 139.0262996,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.64625100000001,139.0262996"
+        "google_maps_link": "https://maps.google.com/?cid=4467340583606288237"
     },
     {
         "name": "諸橋農園　★",
@@ -2007,7 +2007,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0021 新潟県三条市下保内１０８３−３",
         "api_lat": 37.644270899999995,
         "api_lng": 139.02687960000003,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.644270899999995,139.02687960000003"
+        "google_maps_link": "https://maps.google.com/?cid=3582491278962501424"
     },
     {
         "name": "E&E",
@@ -2022,7 +2022,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0021 新潟県三条市下保内２９８９",
         "api_lat": 37.6432674,
         "api_lng": 139.0309151,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.6432674,139.0309151"
+        "google_maps_link": "https://maps.google.com/?cid=1114255800652123050"
     },
     {
         "name": "いすゞ製作所",
@@ -2037,7 +2037,7 @@ const factoryData = [
         "api_found_address": "日本、〒955-0151 新潟県三条市荻堀１３９７−４２",
         "api_lat": 37.575227,
         "api_lng": 139.024629,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.575227,139.024629"
+        "google_maps_link": "https://maps.google.com/?cid=12562370590331541076"
     },
     {
         "name": "八木ヶ鼻温泉　いい湯らてい",
@@ -2052,6 +2052,6 @@ const factoryData = [
         "api_found_address": "日本、〒955-0128 新潟県三条市南五百川１６−１",
         "api_lat": 37.5390441,
         "api_lng": 139.1254478,
-        "google_maps_link": "https://www.google.com/maps/search/?api=1&query=37.5390441,139.1254478"
+        "google_maps_link": "https://maps.google.com/?cid=13277843555775606223"
     }
 ];

@@ -1,4 +1,4 @@
-        // --- Translations Data ---
+// --- Translations Data ---
         const translations = {
             'en': {
                 appTitle: 'Tsubame-Sanjo Factory Festival', appSubtitle: 'Click a factory below to locate it on the map.',
@@ -48,7 +48,7 @@
                 '金型': '模具', '木工': '木工', '食品製造': '食品製造', '小売': '零售', '飲食': '餐飲',
                 '小売・道の駅': '零售・道之驛', '道の駅': '道之驛', '資料館': '資料館', 'その他サービス': '其他服務',
                 '印刷パッケージ': '印刷包裝', '金物卸売': '五金批發', '農家': '農家',
-                '自動車鈑金塗装': '汽車鈑金塗裝', 'アート': '藝術', '小売・飲食': '零售・餐飲', 'その他製造': '其他製造',
+                '自動車鈑金塗裝': '汽車鈑金塗裝', 'アート': '藝術', '小売・飲食': '零售・餐飲', 'その他製造': '其他製造',
                 'リサイクル': '回收', 'プラスチック': '塑膠', '塗料販売': '塗料銷售',
                 'default': '其他'
             }
@@ -78,6 +78,7 @@
         const factoryListElement = document.getElementById('factory-list');
         const searchInput = document.getElementById('search-input');
         const clearSearchBtn = document.getElementById('clear-search-btn');
+        const factoryCountElement = document.getElementById('factory-count');
 
         // --- Core Functions ---
         const createSvgIcon = (color) => {
@@ -149,7 +150,6 @@
             clearSearchBtn.classList.toggle('hidden', searchTerm.length === 0);
 
             const filteredLocations = locations.filter(location => {
-                // If search term is empty, don't filter by name
                 const nameMatch = searchTerm.length === 0 || 
                     location.name.toLowerCase().includes(searchTerm) ||
                     location.originalName.toLowerCase().includes(searchTerm);
@@ -157,23 +157,30 @@
                 return nameMatch && categoryMatch;
             });
 
-            console.log('Filtered locations count:', filteredLocations.length, 'out of', locations.length);
+            let count = 0;
+            filteredLocations.forEach(location => {                
+                if (allListItems[location.originalName]) {
+                    count++;
+                    factoryListElement.appendChild(allListItems[location.originalName]);
+                }
+            });
+
+            if (factoryCountElement) {
+                let label = `${count} factories shown`;
+                if (currentLanguage === 'zh-TW') label = `顯示 ${count} 筆資料`;
+                if (currentLanguage === 'ja') label = `表示中: ${count} 件`;
+                factoryCountElement.textContent = label;
+            }
 
             filteredLocations.forEach(location => {
                 const displayName = location.multilingual[currentLanguage] || location.name;
                 const displayCategory = categoryTranslations[currentLanguage][location.category] || location.category;
 
-                // Check if marker exists before trying to use it
                 if (allMarkers[location.originalName]) {
                     const popupHtml = `<div class="popup-content space-y-2"><h3 class="font-bold text-lg">${displayName}</h3><p class="text-gray-600">${displayCategory}</p><p class="text-sm text-gray-800">${location.address}</p><a href="${location.link}" target="_blank" class="font-semibold inline-block mt-1">${translations[currentLanguage].openInGoogleMaps} →</a></div>`;
                     allMarkers[location.originalName].bindPopup(popupHtml);
 
                     visibleMarkersLayer.addLayer(allMarkers[location.originalName]);
-                }
-
-                // Check if list item exists before trying to use it
-                if (allListItems[location.originalName]) {
-                    factoryListElement.appendChild(allListItems[location.originalName]);
                 }
             });
         }
