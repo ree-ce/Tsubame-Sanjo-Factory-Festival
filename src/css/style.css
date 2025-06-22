@@ -142,10 +142,56 @@ body {
         height: calc(100vh - 60px); /* Account for toggle buttons */
     }
     
+    #mobile-filter-container {
+        height: calc(100vh - 60px); /* Account for toggle buttons */
+    }
+    
     #map {
         height: 100%;
         width: 100%;
     }
+    
+    /* Hide desktop filter on mobile */
+    .leaflet-bottom.leaflet-right {
+        display: none !important;
+    }
+}
+
+/* Mobile filter styles */
+.mobile-filter-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.mobile-filter-item:hover {
+    background-color: #f3f4f6;
+}
+
+.mobile-filter-item input[type="checkbox"] {
+    margin-right: 12px;
+    width: 18px;
+    height: 18px;
+}
+
+.mobile-filter-item .color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.mobile-filter-item label {
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    flex-grow: 1;
 }
 
 /* Ensure buttons are properly styled on mobile */

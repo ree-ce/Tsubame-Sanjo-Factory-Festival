@@ -4,21 +4,21 @@
                 appTitle: 'Tsubame-Sanjo Factory Festival', appSubtitle: 'Click a factory below to locate it on the map.',
                 searchPlaceholder: 'Search for factories...', filterTitle: 'Category Filter', selectAll: 'Select All', deselectAll: 'Deselect All',
                 openInGoogleMaps: 'Open in Google Maps', dataLoadError: 'Could not load factory data. Please ensure \'factory_data.js\' is included and correctly formatted.',
-                listView: 'List View', mapView: 'Map View', toggleFilter: 'Toggle Filter', hideFilter: 'Hide Filter', showFilter: 'Show Filter',
+                listView: 'List View', mapView: 'Map View', filterView: 'Filter', toggleFilter: 'Toggle Filter', hideFilter: 'Hide Filter', showFilter: 'Show Filter',
                 noCoordinates: '(coordinates unavailable)'
             },
             'ja': {
                 appTitle: '燕三条 工場の祭典', appSubtitle: '下のリストをクリックすると地図が移動します。',
                 searchPlaceholder: '工場を検索...', filterTitle: '業種フィルター', selectAll: 'すべて選択', deselectAll: 'すべて解除',
                 openInGoogleMaps: 'Googleマップで開く', dataLoadError: '工場データを読み込めませんでした。「factory_data.js」が正しく設置されているか確認してください。',
-                listView: 'リスト表示', mapView: 'マップ表示', toggleFilter: 'フィルター切替', hideFilter: 'フィルター非表示', showFilter: 'フィルター表示',
+                listView: 'リスト表示', mapView: 'マップ表示', filterView: 'フィルター', toggleFilter: 'フィルター切替', hideFilter: 'フィルター非表示', showFilter: 'フィルター表示',
                 noCoordinates: '(座標利用不可)'
             },
             'zh-TW': {
                 appTitle: '燕三條工廠祭典', appSubtitle: '點擊下方工廠以在地圖上定位。',
                 searchPlaceholder: '搜尋工廠...', filterTitle: '產業類別篩選', selectAll: '全部選取', deselectAll: '全部取消',
                 openInGoogleMaps: '在 Google 地圖中開啟', dataLoadError: '無法載入工廠資料。請確認 \'factory_data.js\' 檔案已正確載入。',
-                listView: '清單檢視', mapView: '地圖檢視', toggleFilter: '切換篩選', hideFilter: '隱藏篩選', showFilter: '顯示篩選',
+                listView: '清單檢視', mapView: '地圖檢視', filterView: '篩選', toggleFilter: '切換篩選', hideFilter: '隱藏篩選', showFilter: '顯示篩選',
                 noCoordinates: '(座標不可用)'
             }
         };
@@ -258,6 +258,11 @@
                             selectedCategories.delete(e.target.value);
                         }
                         updateVisibleFactories();
+                        // Sync with mobile filter
+                        const mobileCheckbox = document.getElementById(`mobile-cat-${e.target.value}`);
+                        if (mobileCheckbox) {
+                            mobileCheckbox.checked = e.target.checked;
+                        }
                     });
                 });
 
@@ -276,20 +281,81 @@
             };
             categoryFilterControl.addTo(map);
 
+            // Create mobile filter interface
+            createMobileFilter(lang);
+
             setTimeout(() => {
                 document.getElementById('select-all-btn').addEventListener('click', () => {
                     selectedCategories = new Set(Object.keys(categoryColors));
                     document.querySelectorAll('.category-filter-item input').forEach(cb => cb.checked = true);
+                    // Sync with mobile filter
+                    document.querySelectorAll('#mobile-category-checkboxes input').forEach(cb => cb.checked = true);
                     updateVisibleFactories();
                 });
                 document.getElementById('deselect-all-btn').addEventListener('click', () => {
                     selectedCategories.clear();
                     document.querySelectorAll('.category-filter-item input').forEach(cb => cb.checked = false);
+                    // Sync with mobile filter
+                    document.querySelectorAll('#mobile-category-checkboxes input').forEach(cb => cb.checked = false);
                     updateVisibleFactories();
                 });
             }, 0);
 
             updateVisibleFactories();
+        }
+
+        // Create mobile filter interface
+        function createMobileFilter(lang) {
+            const mobileCheckboxesContainer = document.getElementById('mobile-category-checkboxes');
+            mobileCheckboxesContainer.innerHTML = '';
+            
+            Object.keys(categoryColors).filter(c => c !== 'default').sort().forEach(category => {
+                const item = document.createElement('div');
+                item.className = 'mobile-filter-item';
+                const displayCategory = categoryTranslations[lang][category] || category;
+                item.innerHTML = `
+                    <input type="checkbox" id="mobile-cat-${category}" value="${category}" class="rounded text-blue-600 focus:ring-blue-500 focus:ring-2">
+                    <div class="color-box" style="background-color:${categoryColors[category]}"></div>
+                    <label for="mobile-cat-${category}" class="text-sm">${displayCategory}</label>
+                `;
+                mobileCheckboxesContainer.appendChild(item);
+                
+                const checkbox = item.querySelector('input');
+                checkbox.checked = selectedCategories.has(category);
+                checkbox.addEventListener('change', (e) => {
+                    if (e.target.checked) {
+                        selectedCategories.add(e.target.value);
+                    } else {
+                        selectedCategories.delete(e.target.value);
+                    }
+                    updateVisibleFactories();
+                    // Sync with desktop filter if it exists
+                    const desktopCheckbox = document.getElementById(`cat-${category}`);
+                    if (desktopCheckbox) {
+                        desktopCheckbox.checked = e.target.checked;
+                    }
+                });
+            });
+
+            // Setup mobile select/deselect all buttons
+            const mobileSelectAllBtn = document.getElementById('mobile-select-all-btn');
+            const mobileDeselectAllBtn = document.getElementById('mobile-deselect-all-btn');
+            
+            mobileSelectAllBtn.addEventListener('click', () => {
+                selectedCategories = new Set(Object.keys(categoryColors).filter(c => c !== 'default'));
+                document.querySelectorAll('#mobile-category-checkboxes input').forEach(cb => cb.checked = true);
+                // Sync with desktop filter
+                document.querySelectorAll('.category-filter-item input').forEach(cb => cb.checked = true);
+                updateVisibleFactories();
+            });
+            
+            mobileDeselectAllBtn.addEventListener('click', () => {
+                selectedCategories.clear();
+                document.querySelectorAll('#mobile-category-checkboxes input').forEach(cb => cb.checked = false);
+                // Sync with desktop filter
+                document.querySelectorAll('.category-filter-item input').forEach(cb => cb.checked = false);
+                updateVisibleFactories();
+            });
         }
 
         // --- Event Listeners and Initializers that depend on data ---
@@ -317,27 +383,38 @@
         function setupMobileViewToggle() {
             const showListBtn = document.getElementById('show-list-btn');
             const showMapBtn = document.getElementById('show-map-btn');
+            const showFilterBtn = document.getElementById('show-filter-btn');
             const sidebar = document.getElementById('sidebar');
             const mapContainer = document.getElementById('map-container');
+            const mobileFilterContainer = document.getElementById('mobile-filter-container');
+
+            function resetButtonStyles() {
+                [showListBtn, showMapBtn, showFilterBtn].forEach(btn => {
+                    btn.classList.remove('text-blue-600', 'bg-blue-50', 'border-b-2', 'border-blue-600');
+                    btn.classList.add('text-gray-600');
+                });
+            }
 
             function showListView() {
                 sidebar.classList.remove('hidden');
                 sidebar.classList.add('flex');
                 mapContainer.classList.add('hidden');
+                mobileFilterContainer.classList.add('hidden');
+                
+                resetButtonStyles();
                 showListBtn.classList.add('text-blue-600', 'bg-blue-50', 'border-b-2', 'border-blue-600');
                 showListBtn.classList.remove('text-gray-600');
-                showMapBtn.classList.remove('text-blue-600', 'bg-blue-50', 'border-b-2', 'border-blue-600');
-                showMapBtn.classList.add('text-gray-600');
             }
 
             function showMapView() {
                 sidebar.classList.add('hidden');
                 sidebar.classList.remove('flex');
                 mapContainer.classList.remove('hidden');
+                mobileFilterContainer.classList.add('hidden');
+                
+                resetButtonStyles();
                 showMapBtn.classList.add('text-blue-600', 'bg-blue-50', 'border-b-2', 'border-blue-600');
                 showMapBtn.classList.remove('text-gray-600');
-                showListBtn.classList.remove('text-blue-600', 'bg-blue-50', 'border-b-2', 'border-blue-600');
-                showListBtn.classList.add('text-gray-600');
                 
                 // Invalidate map size when showing map view to ensure proper rendering
                 setTimeout(() => {
@@ -345,8 +422,20 @@
                 }, 100);
             }
 
+            function showFilterView() {
+                sidebar.classList.add('hidden');
+                sidebar.classList.remove('flex');
+                mapContainer.classList.add('hidden');
+                mobileFilterContainer.classList.remove('hidden');
+                
+                resetButtonStyles();
+                showFilterBtn.classList.add('text-blue-600', 'bg-blue-50', 'border-b-2', 'border-blue-600');
+                showFilterBtn.classList.remove('text-gray-600');
+            }
+
             showListBtn.addEventListener('click', showListView);
             showMapBtn.addEventListener('click', showMapView);
+            showFilterBtn.addEventListener('click', showFilterView);
 
             // Default to list view on mobile
             showListView();
